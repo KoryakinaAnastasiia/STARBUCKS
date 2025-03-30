@@ -1,0 +1,22 @@
+:root {
+  --font-size-big: 80px;
+  --line-height-big: 109%;
+  --font-weight-big: 800;
+
+  --font-size-middle: 32px;
+  --line-height-middle: 163%;
+  --font-weight-middle: 500;
+
+  --font-size-small: 20px;
+  --line-height-small: 163%;
+  --font-weight-small: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(/STARBUCKS/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
