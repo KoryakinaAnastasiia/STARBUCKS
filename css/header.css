@@ -165,6 +165,7 @@ body {
 
 .ball-bluer3 {
   position: absolute;
+  border-radius: 50%;
   width: 229px;
   height: 229px;
   top: 70px;
@@ -176,6 +177,7 @@ body {
 .ball-bluer4 {
   z-index: 0;
   position: absolute;
+  border-radius: 50%;
   width: 324px;
   height: 324px;
   top: 260px;
@@ -271,6 +273,7 @@ body {
   );
   filter: blur(177px);
   position: absolute;
+  border-radius: 50%;
   left: 80px;
 }
 
@@ -388,6 +391,7 @@ body {
     height: 253px;
     top: 100px;
     left: 60px;
+    border-radius: 50%;
   }
 
   .header-tekst {
@@ -528,6 +532,7 @@ body {
 
   .ball-bluer6 {
     display: block;
+    border-radius: 50%;
     width: 166px;
     height: 133px;
     background-image: linear-gradient(
