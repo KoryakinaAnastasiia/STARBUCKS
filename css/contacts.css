@@ -104,6 +104,7 @@
   position: absolute;
   top: -60px;
   right: 2px;
+  z-index: 2;
 }
 
 .star-contact-img {
@@ -118,4 +119,6 @@
   z-index: 0;
   rotate: -15.55 deg;
   border-radius: 104px;
+  left: -520px;
+  top: -40px;
 }
