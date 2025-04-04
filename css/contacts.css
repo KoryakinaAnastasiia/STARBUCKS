@@ -1,0 +1,97 @@
+.contacts {
+  background-color: #121517;
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  justify-content: space-between;
+}
+
+.contacts-information {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 391px;
+}
+
+.title-contact {
+  margin: 0;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 110%;
+  letter-spacing: -3%;
+  color: #ffffff;
+}
+
+.title-contact-green {
+  background-image: linear-gradient(267.2deg, #237249 3.05%, #35c66b 75.72%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.description-contact {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 163%;
+  letter-spacing: -2%;
+  color: #d9d9d9;
+}
+
+.links-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.links-contact-inst {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.inst {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 132%;
+  letter-spacing: 0%;
+}
+
+.links-contact-phone {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.phone {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 132%;
+  letter-spacing: 0%;
+}
+
+.ball-bluer9 {
+  position: absolute;
+  background: linear-gradient(
+    267.2deg,
+    rgba(35, 114, 73, 0.0825) 3.05%,
+    rgba(53, 198, 107, 0.1095) 40.73%
+  );
+  width: 328px;
+  height: 263px;
+  rotate: -180 deg;
+  border-radius: 50%;
+  filter: blur(129.6066131591797px);
+  top: 150px;
+  left: -50px;
+}
+
+.contacts-img {
+  width: 354px;
+  height: 521px;
+  background-color: #237249;
+}
