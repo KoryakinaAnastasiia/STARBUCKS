@@ -40,4 +40,18 @@
 
 .forms-differents-informations {
   padding-top: 54px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.img1 {
+  grid-column: span 3;
+}
+
+.img2 {
+  grid-column: span 3;
+}
+
+.img3 {
+  grid-column: span 2;
 }

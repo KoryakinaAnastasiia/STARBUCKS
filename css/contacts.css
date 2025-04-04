@@ -6,6 +6,7 @@
   padding-right: 130px;
   justify-content: space-between;
   padding-bottom: 107px;
+  overflow: hidden;
 }
 
 .contacts-information {
@@ -95,30 +96,31 @@
 .contacts-img {
   width: 354px;
   height: 521px;
-  background-color: #237249;
   position: relative;
-  z-index: 0;
+}
+
+.contact-kvadrat {
+  position: relative;
+  width: 354px;
+  height: 521px;
+  background-color: #237249;
 }
 
 .img-photo-embl {
   position: absolute;
   top: -60px;
   right: 2px;
-  z-index: 2;
 }
 
 .star-contact-img {
   position: absolute;
-  z-index: 3;
   top: -110px;
   left: -130px;
 }
 
 .line-contact {
   position: absolute;
-  z-index: 0;
-  rotate: -15.55 deg;
   border-radius: 104px;
   left: -520px;
-  top: -40px;
+  top: 80px;
 }
