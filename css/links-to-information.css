@@ -42,36 +42,74 @@
   padding-top: 54px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  gap: 24px 24px;
 }
 
 .img1 {
   background-image: url(/img/img1.jpg);
+  display: flex;
+  flex-direction: column;
   grid-column: span 3;
-  width: 100%;
   border-radius: 30px;
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 23px;
+  gap: 44px;
 }
 
 .forms-differents-informations-title-img1 {
+  margin: 0;
+  max-width: 230px;
   font-weight: 500;
   font-size: 32px;
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+}
+
+.link-img1 {
+  border-radius: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
+  text-align: center;
+  padding: 20px 52px 20px 52px;
+  max-width: 168px;
+  border-radius: 82px;
 }
 
 .img2 {
   background-image: url(/img/img2.jpg);
+  display: flex;
+  flex-direction: column;
   grid-column: span 3;
-  width: 100%;
   border-radius: 30px;
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-right: 27px;
+  padding-bottom: 23px;
+  gap: 44px;
 }
 
 .forms-differents-informations-title-img2 {
+  margin: 0;
   font-weight: 500;
   font-size: 32px;
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+}
+
+.link-img2 {
+  border-radius: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
+  text-align: center;
+  padding: 20px 52px 20px 52px;
+  width: 168px;
+  border-radius: 82px;
 }
 
 .img3 {
@@ -79,14 +117,21 @@
   grid-column: span 2;
   width: 100%;
   border-radius: 30px;
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-bottom: 23px;
 }
 
 .forms-differents-informations-title-img3 {
+  margin: 0;
   font-weight: 500;
   font-size: 32px;
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+}
+
+.link-img3 {
 }
 
 .img4 {
@@ -97,6 +142,7 @@
 }
 
 .forms-differents-informations-title-img4 {
+  margin: 0;
   font-weight: 500;
   font-size: 32px;
   line-height: 109%;
@@ -112,6 +158,7 @@
 }
 
 .forms-differents-informations-title-img5 {
+  margin: 0;
   font-weight: 500;
   font-size: 32px;
   line-height: 109%;
