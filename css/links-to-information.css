@@ -45,13 +45,76 @@
 }
 
 .img1 {
+  background-image: url(/img/img1.jpg);
   grid-column: span 3;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.forms-differents-informations-title-img1 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
 
 .img2 {
+  background-image: url(/img/img2.jpg);
   grid-column: span 3;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.forms-differents-informations-title-img2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
 
 .img3 {
+  background-image: url(/img/img3.jpg);
   grid-column: span 2;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.forms-differents-informations-title-img3 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.img4 {
+  background-image: url(/img/img4.jpg);
+  grid-column: span 2;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.forms-differents-informations-title-img4 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.img5 {
+  background-image: url(/img/img5.jpg);
+  grid-column: span 2;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.forms-differents-informations-title-img5 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 109%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
