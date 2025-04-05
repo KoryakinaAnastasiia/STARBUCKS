@@ -99,6 +99,7 @@
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+  max-width: 168px;
 }
 
 .link-img2 {
@@ -110,6 +111,7 @@
   padding: 20px 52px 20px 52px;
   width: 168px;
   border-radius: 82px;
+  max-width: 168px;
 }
 
 .img3 {
