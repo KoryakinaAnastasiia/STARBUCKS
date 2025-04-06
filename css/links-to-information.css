@@ -43,6 +43,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 24px 24px;
+  position: relative;
 }
 
 .img1 {
@@ -217,4 +218,45 @@
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+}
+
+.ball-bluer10 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(130px);
+  width: 255px;
+  height: 204px;
+  top: 3275px;
+  left: 659px;
+  background: linear-gradient(
+    267.2deg,
+    rgba(35, 114, 73, 0.0825) 3.05%,
+    rgba(53, 198, 107, 0.1095) 40.73%
+  );
+}
+
+.ball-bluer11 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(130px);
+  width: 322px;
+  height: 278px;
+  top: 3800px;
+  left: 442px;
+  background: #d9d9d91f;
+}
+
+.ball-bluer12 {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(109px);
+  width: 275px;
+  height: 220px;
+  top: 3600px;
+  left: 1150px;
+  background: linear-gradient(
+    267.2deg,
+    rgba(35, 114, 73, 0.0825) 3.05%,
+    rgba(53, 198, 107, 0.1095) 40.73%
+  );
 }
