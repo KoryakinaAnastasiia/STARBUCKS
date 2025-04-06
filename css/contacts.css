@@ -98,6 +98,7 @@
 }
 
 .contacts-img {
+  margin-top: 96px;
   width: 354px;
   height: 521px;
   position: relative;
@@ -158,6 +159,14 @@
     position: relative;
     gap: 68px;
     background-color: #121517;
+    position: relative;
+    justify-content: flex-end;
+  }
+
+  .line-contact-mini {
+    position: absolute;
+    left: 0px;
+    top: 20px;
   }
 
   .contacts-square {
@@ -167,11 +176,23 @@
   }
 
   .contacts-star {
+    position: absolute;
+    top: 137px;
     width: 112px;
     height: 112px;
-    top: 3727px;
     left: 62px;
     border-radius: 27px;
+  }
+
+  .contacts-square-photo {
+    position: relative;
+    margin-right: 15px;
+  }
+
+  .contacts-img-mini-photo {
+    width: 160px;
+    height: 235px;
+    box-shadow: -4.8px 9px 22px #00000063, 15px 12px #237249;
   }
 
   .title-contact {

@@ -3,6 +3,7 @@
   padding-top: 100px;
   padding-left: 130px;
   padding-right: 130px;
+  position: relative;
 }
 
 .information-about-events {
@@ -44,6 +45,7 @@
   grid-template-columns: repeat(6, 1fr);
   gap: 24px 24px;
   position: relative;
+  width: auto;
 }
 
 .img1 {
@@ -252,8 +254,8 @@
   filter: blur(109px);
   width: 275px;
   height: 220px;
-  top: 3600px;
-  left: 1150px;
+  bottom: 105px;
+  right: 53px;
   background: linear-gradient(
     267.2deg,
     rgba(35, 114, 73, 0.0825) 3.05%,
@@ -264,8 +266,8 @@
 @media (max-width: 428px) {
   .links-to-information {
     padding-top: 64px;
-    padding-left: 100px;
-    padding-right: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .information-about-events {
@@ -289,28 +291,8 @@
   }
 
   .forms-differents-informations {
-    scroll-snap-type: x mandatory;
-    overflow-x: scroll;
     width: 100%;
-  }
-
-  .img1 {
-    width: 100%;
-  }
-
-  .img2 {
-    width: 100%;
-  }
-
-  .img3 {
-    width: 100%;
-  }
-
-  .img4 {
-    width: 100%;
-  }
-
-  .img5 {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
