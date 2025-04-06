@@ -74,9 +74,10 @@
   color: #ffffff;
   background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
   text-align: center;
-  padding: 20px 52px 20px 52px;
-  max-width: 168px;
+  align-content: center;
   border-radius: 82px;
+  max-width: 168px;
+  height: 75px;
 }
 
 .img2 {
@@ -108,20 +109,23 @@
   color: #ffffff;
   background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
   text-align: center;
-  padding: 20px 52px 20px 52px;
-  width: 168px;
+  align-content: center;
   border-radius: 82px;
   max-width: 168px;
+  height: 75px;
 }
 
 .img3 {
   background-image: url(/img/img3.jpg);
   grid-column: span 2;
-  width: 100%;
   border-radius: 30px;
   padding-top: 44px;
   padding-left: 27px;
   padding-bottom: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding-right: 27px;
 }
 
 .forms-differents-informations-title-img3 {
@@ -131,16 +135,32 @@
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+  max-width: 241px;
 }
 
 .link-img3 {
+  border-radius: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
+  text-align: center;
+  align-content: center;
+  border-radius: 82px;
+  max-width: 168px;
+  height: 75px;
 }
 
 .img4 {
   background-image: url(/img/img4.jpg);
   grid-column: span 2;
-  width: 100%;
   border-radius: 30px;
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-bottom: 23px;
+  padding-right: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
 }
 
 .forms-differents-informations-title-img4 {
@@ -150,13 +170,44 @@
   line-height: 109%;
   letter-spacing: 0%;
   color: #ffffff;
+  max-width: 222px;
+}
+
+.link-img4 {
+  border-radius: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
+  text-align: center;
+  align-content: center;
+  border-radius: 82px;
+  max-width: 168px;
+  height: 75px;
 }
 
 .img5 {
   background-image: url(/img/img5.jpg);
   grid-column: span 2;
-  width: 100%;
   border-radius: 30px;
+  padding-top: 44px;
+  padding-left: 27px;
+  padding-bottom: 23px;
+  padding-right: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+.link-img5 {
+  border-radius: 45px;
+  text-decoration: none;
+  color: #ffffff;
+  background-image: linear-gradient(250deg, #237249 50%, #35c66b 100%);
+  text-align: center;
+  align-content: center;
+  border-radius: 82px;
+  max-width: 168px;
+  height: 75px;
 }
 
 .forms-differents-informations-title-img5 {
